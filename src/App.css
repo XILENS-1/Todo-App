@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --border-height: 1px;
+}
+
+html,
+body {
+  background-color: #2a272a;
+  font-family: "Gilroy";
+}
+
+.App {
+  width: 500px;
+  height: 500px;
+  background-color: #45444b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow:0px 0px 300px 34px rgba(97,17,94,0.2);
+-moz-box-shadow: 0px 0px 300px 34px rgba(97,17,94,0.2);
+box-shadow: 0px 0px 300px 34px rgba(97,17,94,0.2);
+}
+
+ul li {
+  list-style: none;
+
+}
+
+.main {
+  margin: 60px 0 0 40px;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0.9;
+}
+.line {
+  width: 100px;
+  height: 1px;
+  background-color: rgb(13, 13, 13);
+  margin-left: 180px;
+  margin-top: 3px;
+  opacity: .5;
+}
+
+.type {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input1 {
+ 
+  width: 50%;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding-inline: 0.5em;
+  padding-block: 0.7em;
+  border: none;
+  border-bottom: var(--border-height) solid;
+}
+
+.addTask{
+  margin-top: 15px;
+}
+.addTask:hover{
+  transition-duration: 0.3s;
+  background-color: green;
+}
+button,
+button:focus { 
+  margin-left: 8px;
+  font-size: 14px;
+  padding: 8px 8px;
+  border-radius: 0.2rem;
+  background-image: #fff;
+  border: 1px solid rgb(50, 50, 50);
+  border-bottom: 3px solid rgb(50, 50, 50);
+  /* box-shadow: 0px 1px 4px 0px rgb(158, 129, 254); */
+  transform: translate(0, -4px);
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear; 
+  
+}
+
+button:active {
+  transform: translate(0, 0);
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+span{
+  color: #fff;
+  padding: 0 0 0 10px;
+  margin-right: 150px;
+}
+
+
+
+
+.delete{
+  margin-top: 10px;  
+}
+.delete:hover{
+  transition: 0.3s;
+background-color: rgb(231, 44, 44);
+
+}
+
+.checkbo{
+  accent-color: red;
+}
+
